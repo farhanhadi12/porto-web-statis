@@ -1,0 +1,104 @@
+/* Reset beberapa style bawaan browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style umum untuk body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section umum */
+section {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Tentang Saya */
+#about {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* Keterampilan */
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Pengalaman */
+#experience ul {
+    list-style-type: none;
+}
+
+#experience ul li {
+    margin-bottom: 20px;
+}
+
+#experience h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#experience p {
+    color: #555;
+}
+
+/* Kontak */
+#contact p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
